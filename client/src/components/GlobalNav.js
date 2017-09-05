@@ -4,7 +4,7 @@ import styled  from 'styled-components';
 
 const Nav = styled.div`
   background-color: #789e4f;
-  color: #c17a05;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,6 +15,9 @@ const Nav = styled.div`
       margin: 0 5px;
       &:visited{
         color: white;
+      }
+      &:hover{
+        color: #e38003;
       }
     }
 `
