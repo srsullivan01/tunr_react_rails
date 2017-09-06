@@ -12,6 +12,7 @@ const Nav = styled.div`
   box-shadow: 0px 1px 6px black;
     a{
       text-decoration: none;
+      color: white;
       margin: 0 5px;
       &:visited{
         color: white;
@@ -30,6 +31,7 @@ return (
     <div>
       <Link to="/artists/1">Artists</Link>
       <Link to="/signup">Sign Up</Link>
+      <Link to="/addband">Add Band</Link>
     </div>
   </Nav>
   );
